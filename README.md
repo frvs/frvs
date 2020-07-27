@@ -1,4 +1,4 @@
-## Olá!
+## Olá!👋
 
 I'm Lucas Frois, a brazilian software developer based at Goiânia, Brazil.  
 
