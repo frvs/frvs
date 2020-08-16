@@ -1,23 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="styles.css">
-    <title>Frois' Blog</title>
-  </head>
-  <body>
-    <nav>
-        <a href="./index.html">⟵ Home</a>
-    </nav>
-    <main>
-        <section class="experience">
-            <h1>Experience 🖥️</h1>
-            
-            <div class="experience-card">
-                <small>fev/2020 to now</small>
-                <p class="experience-title"><b>Back-end developer</b> at <a href="https://www.linkedin.com/company/trinus-co" target="_blank">@Trinus Tech</a></p>
-                <br />
-                <p><b>Business: </b> We builded a `Bank-As-A-Service' (BaaS) API and mobile app from scratch.</p>
+import React from 'react';
+import BackHome from '../components/BackHome';
+import ExperienceCard from '../components/ExperienceCard';
+
+const trinusDescription = `
+<p><b>Business: </b> We builded a Bank-As-A-Service (BaaS) API and mobile app from scratch.</p>
                 <p><b>Tech stack: </b> C#, .NET Core 3.1, WebApi, DDD architecture and RESTful designed API.</p>
                 <p><b>Libraries: </b> EF Core, Dapper, Flunt, SwaggerUI, JUnit.</p>
                 <br />
@@ -26,14 +12,10 @@
                   maintainability, reliability andso many others -ities that comes from good practices. 
                   Also, a big company is also a place for legacy systems and old code: 
                   that's was perfect to me bc I love refactoring and make code less complex.</p>
-            
-            </div>
+`;
 
-            <div class="experience-card">    
-                <small>jan/2019 to fev/2020</small>
-                <p class="experience-title"><b>Jr. Full-stack developer</b> at <a href="https://br.linkedin.com/company/lglugardegente" target="_blank">@LG place of people</a></p>
-                <br />
-                <p><b>Business: </b> LG is the biggest HR/HCM software company in Brazil. I've worked on 'Jobs & Wages' team of 'LG Suite' application.</p>
+const lgDescription = `
+<p><b>Business: </b> LG is the biggest HR/HCM software company in Brazil. I've worked on 'Jobs & Wages' team of 'LG Suite' application.</p>
                 <p><b>Tech stack: </b> C#, .NET 4.5, MVC 5, Razor pages, Services & Repositories architecture.</p>
                 <p><b>Libraries: </b> NHibernate, FluentValidation, NUnit.</p>
                 <br />
@@ -42,12 +24,34 @@
                     maintainability, reliability andso many others -ities that comes from good practices. 
                     Also, a big company is also a place for legacy systems and old code: 
                     that's was perfect to me bc I love refactoring and make code less complex.</p>
-            </div>
+`;
 
-        </section>
-    </main>
-    <footer>
+const experiences = [
+  {
+    id: 1, title: 'back-end developer at @trinustech', description: trinusDescription, date: 'fev/20 to ago/20'
+  }, 
+  {
+    id: 2, title: 'full-stack developer at @lglugardegente', description: lgDescription, date: 'fev/20 to ago/20'
+  }, 
+  {
+    id: 3, title: 'database support at @decisaosistemas', description: '', date: 'fev/20 to ago/20'
+  }, 
+  {
+    id: 4, title: 'front-end developer at @dandaralab', description: '', date: 'fev/20 to ago/20'
+  }, 
+]
 
-    </footer>
-  </body>
-</html>
+export default function Experience() {  
+  return (
+    <>
+      <BackHome />
+      {experiences.map((item, i) => {
+        return (
+          <div key={i}>
+            <ExperienceCard {...item}/>
+          </div>
+        )
+      })}
+    </>
+  )
+}
