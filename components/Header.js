@@ -1,8 +1,8 @@
 import Social from './Social';
 
 const name = 'Lucas Frois';
-const description = `Atualmente desenvolvedor pela @FastChannel.`;
-const subdescription = 'Antes, dev back-end na @TrinusTech.'
+const description = `Atualmente desenvolvedor pela @Lambda3.`;
+const subdescription = 'Antes, dev back-end na @FastChannel.'
 const headerStyle = { 
   margin: `5vh auto 2vh`, 
   textAlign: `center`, 

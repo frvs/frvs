@@ -2,8 +2,7 @@ const social = [
   {id:1, name: 'LinkedIn', href:'https://linkedin.com/in/frvs'}, 
   {id:2, name: 'Github', href:'https://github.com/frvs'}, 
   {id:3, name: 'Telegram', href:'https://t.me/lucas_frois'}, 
-  {id:4, name: 'Currículo', href:''}, 
-  {id:5, name: 'Mail', href:'mailto:frois.dev@gmail.com'}, 
+  {id:4, name: 'Contato', href:'mailto:frois.dev@gmail.com'}, 
 ]
 const styleSocialContainer = {
   display: `flex`, 
