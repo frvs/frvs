@@ -25,3 +25,5 @@ Previously back-end developer at @FastChannel.
 
 #### 📖 Learning
 My main programming language is C#. I'm currently working with and learning React.  
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=frvs&show_icons=true&theme=gotham)
