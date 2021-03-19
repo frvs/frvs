@@ -31,9 +31,9 @@ I'm avaliable at [Telegram](t.me/lucas_frois) or [mail me](mailto:frois.dev@gmai
 
 #### 👔 Work experience
 
-Currently working as front-end developer at [@Lambda3](https://www.linkedin.com/company/lambda3/).  
-Previously back-end developer at [@FastChannel](https://www.linkedin.com/company/fast-channel/).
+Currently working as developer at [@Lambda3](https://www.linkedin.com/company/lambda3/).  
+Previously developer at [@FastChannel](https://www.linkedin.com/company/fast-channel/).
 
 #### 📖 Learning
 
-My main programming language is C#. I'm currently working with and learning React.
+My main programming language is C#. I'm currently working with and learning React and TypeScript.
