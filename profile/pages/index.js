@@ -26,7 +26,7 @@ export default function Home() {
               target="_blank"
               className={styles.socialIconLink}
             >
-              <i className={`fab fa-twitter`}></i>
+              <i className={`fab fa-twitter ${styles.svgIcon}`}></i>
             </a>
           </li>
           <li className={utilStyles.listItem}>
@@ -35,7 +35,7 @@ export default function Home() {
               target="_blank"
               className={styles.socialIconLink}
             >
-              <i className={`fab fa-github`}></i>
+              <i className={`fab fa-github ${styles.svgIcon}`}></i>
             </a>
           </li>
           <li className={utilStyles.listItem}>
@@ -44,7 +44,7 @@ export default function Home() {
               target="_blank"
               className={styles.socialIconLink}
             >
-              <i className={`fab fa-linkedin-in`}></i>
+              <i className={`fab fa-linkedin-in ${styles.svgIcon}`}></i>
             </a>
           </li>
           <li className={utilStyles.listItem}>
@@ -53,7 +53,7 @@ export default function Home() {
               target="_blank"
               className={styles.socialIconLink}
             >
-              <i className={`fab fa-telegram-plane`}></i>
+              <i className={`fab fa-telegram-plane ${styles.svgIcon}`}></i>
             </a>
           </li>
           <li className={utilStyles.listItem}>
@@ -62,7 +62,7 @@ export default function Home() {
               target="_blank"
               className={styles.socialIconLink}
             >
-              <i className={`far fa-envelope`}></i>
+              <i className={`far fa-envelope ${styles.svgIcon}`}></i>
             </a>
           </li>
         </ul>
