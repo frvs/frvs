@@ -1,10 +1,8 @@
 import Layout from '../components/Layout/Layout';
 
-import styles from '../components/pages/tech/tech.module.scss';
-
 const Tech = () => {
   return (
-    <Layout>
+    <Layout pageTitle="tecnologias que domino/conheço">
       <div>hi tech</div>
     </Layout>
   );

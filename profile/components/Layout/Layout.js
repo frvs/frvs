@@ -11,6 +11,7 @@ export default function Layout({
   children,
   home,
   siteTitle = "Frois' profile 📝",
+  pageTitle,
 }) {
   return (
     <div className={styles.container}>
@@ -45,8 +46,10 @@ export default function Layout({
                 <a>← Início</a>
               </Link>
             </div>
+            <h2 className={utilStyles.headingMd}>{pageTitle}</h2>
           </>
         )}
+        {!home && <></>}
       </header>
       <main>{children}</main>
     </div>

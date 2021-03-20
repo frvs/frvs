@@ -11,5 +11,7 @@
 - [x] - adicionar hover ao passar o mouse em cima da foto
 - [x] - criar links para as páginas
 - [x] - add emojis to title links
-- [ ] - componentizar index
+- [x] - componentizar index
+- [x] - criar work
+- [ ] - componentizar work
 - [ ] - adicionar switch tema escuro

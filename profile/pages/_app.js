@@ -1,4 +1,5 @@
 import '../styles/global.scss';
+import '../styles/clamp-lines.css';
 
 import '@fortawesome/fontawesome-free/js/fontawesome';
 import '@fortawesome/fontawesome-free/js/solid';

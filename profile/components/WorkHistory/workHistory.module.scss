@@ -1,0 +1,37 @@
+.workItemContainer {
+  margin: 20px 0;
+  padding: 20px 15px;
+  background: #fafafa;
+  border: 2px solid #eaeaea;
+  border-radius: 8px;
+  display: flex;
+  width: auto;
+}
+
+.companyLogoContainer {
+  min-width: 50px;
+}
+
+.workItem {
+  padding-left: 20px;
+}
+
+.workItemDescription {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.tagsContainer {
+  margin-bottom: 20px;
+}
+.workItemTag {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #060606;
+  color: #fff;
+  padding: 2px 5px;
+  margin: 0px 8px 8px 0px;
+  font-size: 0.875em;
+  font-weight: 700;
+  cursor: pointer;
+}

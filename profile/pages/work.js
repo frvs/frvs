@@ -1,11 +1,10 @@
 import Layout from '../components/Layout/Layout';
-
-import styles from '../components/pages/work/work.module.scss';
+import WorkHistory from '../components/WorkHistory/WorkHistory';
 
 const Work = () => {
   return (
-    <Layout>
-      <div>hi work</div>
+    <Layout pageTitle="experiência profissional">
+      <WorkHistory />
     </Layout>
   );
 };
