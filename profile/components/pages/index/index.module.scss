@@ -1,0 +1,14 @@
+.socialSection {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIconLink {
+  color: black;
+  font-size: 28px;
+  transition: 0.5s;
+}
+
+.socialIconLink:hover {
+  color: #ff6700;
+}

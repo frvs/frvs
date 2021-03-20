@@ -1,8 +1,8 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import styles from './layout.module.css';
-import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+
+import styles from './layout.module.scss';
+import utilStyles from '../styles/utils.module.scss';
 
 const title = 'oi 👋 eu sou o frois ';
 const name = 'Lucas Frois';
@@ -26,14 +26,11 @@ export default function Layout({
         {home && (
           <>
             <h1 className={utilStyles.heading2Xl}>{title}</h1>
-            <Image
-              priority
+            <img
               src="/images/profile.jpg"
-              className={utilStyles.borderCircle}
-              height={144}
-              width={144}
+              className={`${utilStyles.borderCircle} ${styles.icon}`}
               alt={name}
-            />
+            ></img>
           </>
         )}
         {!home && (

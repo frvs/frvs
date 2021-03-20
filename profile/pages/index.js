@@ -1,19 +1,97 @@
 import Layout from '../components/layout';
-import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+
+import styles from '../components/pages/index/index.module.scss';
+import utilStyles from '../styles/utils.module.scss';
 
 export default function Home() {
   return (
     <Layout home>
       <section className={utilStyles.headingMd} style={{ textAlign: `center` }}>
         <p>
-          atualmente dev pela{' '}
-          <a href="https://www.linkedin.com/company/lambda3">@lambda3</a> e
-          morando em goiânia/go :)
+          dev pela{' '}
+          <a href="https://www.linkedin.com/company/lambda3" target="_blank">
+            @lambda3
+          </a>
+          , 21 anos e morando em goiânia/go
         </p>
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <ul className={utilStyles.list}></ul>
+      <section
+        className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${styles.socialSection}`}
+      >
+        <ul className={utilStyles.list}>
+          <li className={utilStyles.listItem}>
+            <a
+              href="https://twitter.com/_frvs"
+              target="_blank"
+              className={styles.socialIconLink}
+            >
+              <i className={`fab fa-twitter`}></i>
+            </a>
+          </li>
+          <li className={utilStyles.listItem}>
+            <a
+              href="https://github.com/frvs"
+              target="_blank"
+              className={styles.socialIconLink}
+            >
+              <i className={`fab fa-github`}></i>
+            </a>
+          </li>
+          <li className={utilStyles.listItem}>
+            <a
+              href="https://www.linkedin.com/in/frvs/"
+              target="_blank"
+              className={styles.socialIconLink}
+            >
+              <i className={`fab fa-linkedin-in`}></i>
+            </a>
+          </li>
+          <li className={utilStyles.listItem}>
+            <a
+              href="https://t.me/lucas_frois"
+              target="_blank"
+              className={styles.socialIconLink}
+            >
+              <i className={`fab fa-telegram-plane`}></i>
+            </a>
+          </li>
+          <li className={utilStyles.listItem}>
+            <a
+              href="mailto:frois.dev@gmail.com"
+              target="_blank"
+              className={styles.socialIconLink}
+            >
+              <i className={`far fa-envelope`}></i>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <div>
+          <Link href="/work">
+            <a className={utilStyles.colorInherit}>
+              <h2>Experiência</h2>
+              <small>Onde eu trabalhei como desenvolvedor.</small>
+            </a>
+          </Link>
+        </div>
+        <div>
+          <Link href="/tech">
+            <a className={utilStyles.colorInherit}>
+              <h2>Stack técnica</h2>
+              <small>Tecnologias que uso atualmente ou já usei.</small>
+            </a>
+          </Link>
+        </div>
+        <div>
+          <Link href="/opensource">
+            <a className={utilStyles.colorInherit}>
+              <h2>Open Source</h2>
+              <small>Projetos de código aberto que contribui.</small>
+            </a>
+          </Link>
+        </div>
       </section>
     </Layout>
   );
