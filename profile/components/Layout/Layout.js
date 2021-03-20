@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 import styles from './layout.module.scss';
-import utilStyles from '../styles/utils.module.scss';
+import utilStyles from '../../styles/utils.module.scss';
 
 const title = 'oi 👋 eu sou o frois ';
 const name = 'Lucas Frois';

@@ -10,6 +10,6 @@
 - [x] - criar seção de redes sociais [twitter, instagram, github, linkedin, telegram, email]
 - [x] - adicionar hover ao passar o mouse em cima da foto
 - [x] - criar links para as páginas
-- [ ] - add emojis to title links
+- [x] - add emojis to title links
 - [ ] - componentizar index
 - [ ] - adicionar switch tema escuro
