@@ -11,5 +11,6 @@
 }
 
 .backToHome {
-  margin: 3rem 0 0;
+  align-self: flex-start;
+  margin: 1rem 0 1rem;
 }
