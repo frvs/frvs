@@ -1,9 +1,10 @@
 import Layout from '../components/Layout/Layout';
+import Repositories from '../components/Repositories/Repositories';
 
 const OpenSource = () => {
   return (
     <Layout pageTitle="projetos open-source">
-      <div>hi open-source</div>
+      <Repositories />
     </Layout>
   );
 };

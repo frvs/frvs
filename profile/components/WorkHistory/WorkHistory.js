@@ -1,8 +1,6 @@
-import { useState } from 'react';
 import Image from 'next/image';
 import ClampLines from 'react-clamp-lines';
-import clsx from 'classnames';
-
+import Tag from '../Tag/Tag';
 import styles from './workHistory.module.scss';
 
 const experienceItems = [
@@ -79,15 +77,7 @@ const experienceItems = [
   },
 ];
 
-const tag = (title, key) => (
-  <div key={key} className={styles.workItemTag}>
-    {title.toLowerCase()}
-  </div>
-);
-
 const workItem = ({ id, title, duration, description, tags, image }) => {
-  const [expanded, setExpanded] = useState(false);
-
   return (
     <div key={id} className={styles.workItemContainer}>
       <div className={styles.companyLogoContainer}>
@@ -111,7 +101,9 @@ const workItem = ({ id, title, duration, description, tags, image }) => {
           />
         </div>
         <div className={styles.tagsContainer}>
-          {tags.map((t, key) => tag(t, key))}
+          {tags.map((t, key) => (
+            <Tag title={t} key={key} />
+          ))}
         </div>
       </div>
     </div>

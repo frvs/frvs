@@ -46,7 +46,12 @@ export default function Layout({
                 <a>← Início</a>
               </Link>
             </div>
-            <h2 className={utilStyles.headingMd}>{pageTitle}</h2>
+            <h2
+              className={utilStyles.headingMd}
+              style={{ marginBottom: `40px` }}
+            >
+              {pageTitle}
+            </h2>
           </>
         )}
         {!home && <></>}

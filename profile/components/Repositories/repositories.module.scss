@@ -1,0 +1,25 @@
+.repositoryContainer {
+  margin-bottom: 36px;
+}
+
+.repositoryLink {
+  padding: 5px;
+  background: transparent;
+  color: #111;
+  font-weight: bolder;
+  border: 2px solid #111;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.5s;
+  letter-spacing: 1px;
+  text-decoration: none !important;
+}
+
+.repositoryLink:hover {
+  color: white;
+  background-color: #111;
+}
+.repositoryDescription {
+  margin: 5px 0 5px;
+  padding: 3px 0 3px;
+}
