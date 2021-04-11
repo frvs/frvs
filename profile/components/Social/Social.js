@@ -25,7 +25,7 @@ const socialItems = [
   {
     id: 5,
     href: 'mailto:frois.dev@gmail.com',
-    faClassName: 'fab fa-twitter',
+    faClassName: 'fas fa-envelope',
   },
 ];
 

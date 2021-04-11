@@ -13,5 +13,7 @@
 - [x] - add emojis to title links
 - [x] - componentizar index
 - [x] - criar work
-- [ ] - componentizar work
+- [x] - componentizar work
+- [ ] - criar tech
+- [ ] - componentizar tech
 - [ ] - adicionar switch tema escuro
